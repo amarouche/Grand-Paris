@@ -1,0 +1,71 @@
+{
+  "exercices":
+    {
+    "facile":
+      [
+          {
+            "id" : "0",
+            "exercice": {
+              "nom": "merci",
+              "text" : "Aujourd’hui Tante Apolonie se marie à la mairie de St-Cloud à 11h30 et un pique-nique est prévu à l’issue de la cérémonie dans le parc de St-Cloud. \r\n Ses 5 neveux et nièces, qui souhaitent se rendre ensemble au mariage, se retrouvent comme convenu devant la mairie de Bagneux, leur ville, à 9h45.\r\n Mais ils n’arrivent pas à se mettre d’accord sur le mode de transport ! A 10h, ils se séparent et chacun choisit de se rendre à St-Cloud par ses propres moyens. \r\nAdel, toujours soucieux de l’environnement, souhaite y aller à pied.\r\n Il n’y a que 9 kms à parcourir, ce n’est donc pas trop fatigant ! Il a un peu de mal avec les calculs, donc il ne sait pas à quelle heure il arrivera, mais il sait qu’il marche au rythme de 4,5 kms/heure. \r\nClara, qui fait toujours en sorte de se fatiguer le moins possible, déclare qu’elle ira en voiture avec ses parents. \r\nElle arrive à la mairie à 10h30. Jean, qui aime observer les gens dans les transports en commun, décide de prendre le bus, le métro et le RER.\r\n C’est un peu moins simple que ce qu’il imaginait : après avoir pris le bus pendant 11 minutes, il a marché 3 minutes pour se rendre à la station de métro. \r\nLe trajet en métro lui a pris 17 minutes, et il a dû marcher ensuite pendant 5 minutes pour aller prendre le RER, dans lequel il est resté 23 minutes. \r\nYama, grande sportive, ira en vélo. Elle a déjà fait une fois ce trajet, et sait qu’elle mettra 45 minutes. Et enfin Leïla a très envie de découvrir la nouvelle ligne du Grand Paris Express. \r\nElle n’a aucune idée du temps qui lui sera nécessaire, elle sait juste que c’est direct. \r\nElle prend donc le GPE à Bagneux et descend à St-Cloud. Elle arrive à la mairie à 10h12.\r\n"
+            },
+            "questions":
+              [
+                {
+                  "question1": "Qui arrive le premier au mariage ?"
+                },
+                {
+                  "question2": "Qui arrive alors que le mariage est déjà bien commencé ?"
+                },
+                {
+                  "question3": "Après avoir fait quelques calculs, précise pour chacun des neveux et nièces son heure d’arrivée: Adel arrive à "
+                },
+                {
+                  "question4": "Après avoir fait quelques calculs, précise pour chacun des neveux et nièces son heure d’arrivée: Clara arrive à "
+                },
+                {
+                  "question5": "Après avoir fait quelques calculs, précise pour chacun des neveux et nièces son heure d’arrivée: Jean arrive à "
+                }
+              ],
+            "reponses":
+            [
+              {
+                "reponse1": "wsh"
+              },
+              {
+                "reponse2": "zoulette?"
+              }
+            ]
+          },
+
+          {
+            "id" : "1",
+            "exercice":{
+
+              "nom": "merci",
+              "text" : "test2"
+            }
+          }
+      ],
+      "moyen":
+      [
+        {
+          "id" : "0",
+          "exercice": {
+
+            "nom": "test",
+            "text" : "moyen"
+          }
+        },
+
+        {
+          "id" : "1",
+          "exercice": {
+
+            "nom": "test",
+            "text" : "moyen2"
+          }
+        }
+      ]
+  }
+}

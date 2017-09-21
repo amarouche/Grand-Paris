@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ouahab.gp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#333333"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <FrameLayout
+            android:id="@+id/header"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/games"
+            tools:layout_editor_absoluteX="0dp">
+
+            <!-- <ImageView
+                     android:id="@+id/imageView"
+                     android:layout_width="58dp"
+                     android:layout_height="match_parent"
+                     android:layout_gravity="right"
+                 tools:ignore="RtlHardcoded" />
+                 <ImageView
+                     android:id="@+id/imageButton"
+                     android:layout_width="176dp"
+                     android:layout_height="81dp"
+                     android:layout_gravity="center"
+                     android:scaleType="fitXY"
+                     android:layout_marginTop="1dp"
+                     app:srcCompat="@drawable/logo22"/>-->
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/header"
+            android:layout_marginTop="7mm"
+            android:baselineAligned="false"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            app:layout_constraintTop_toBottomOf="@+id/header"
+            tools:ignore="InOrMmUsage"
+            tools:layout_editor_absoluteX="3dp">
+
+            <ScrollView
+                android:id="@+id/scrollView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lay"
+                tools:ignore="UselessParent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/maths"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/math"
+                            android:contentDescription=""
+                            android:padding="10dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/maths"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+
+                        <ImageButton
+                            android:id="@+id/situer"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:background="@drawable/pnt_cardinaux"
+                            android:contentDescription=""
+                            android:padding="10dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/situer"
+                            tools:ignore="ContentDescription" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <Button
+                            android:id="@+id/Maths"
+                            android:layout_width="140dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="0.66"
+                            android:background="@drawable/math2"
+                            android:fontFamily="monospace"
+                            android:text="maths"
+                            android:textStyle="bold"
+                            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+
+                        <Button
+                            android:id="@+id/situe"
+                            android:layout_width="140dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/pnt_cardinaux2"
+                            android:fontFamily="monospace"
+                            android:text="point cardinaux"
+                            android:textStyle="bold"
+                            tools:ignore="ButtonStyle,HardcodedText" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/maps"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/mapr"
+                            android:contentDescription=""
+                            android:padding="10dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/carte_monde"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+
+                        <ImageButton
+                            android:id="@+id/remplir"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:background="@drawable/placer"
+                            android:contentDescription=""
+                            android:padding="10dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/maps"
+                            tools:ignore="ContentDescription" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <Button
+                            android:id="@+id/map"
+                            android:layout_width="140dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="10dp"
+                            android:layout_weight="0.70"
+                            android:background="@drawable/mapr2"
+                            android:fontFamily="monospace"
+                            android:text="maps"
+                            android:textStyle="bold"
+                            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+
+                        <Button
+                            android:id="@+id/Remplir"
+                            android:layout_width="140dp"
+                            android:layout_height="25dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/placer2"
+                            android:fontFamily="monospace"
+                            android:text="SE situer"
+                            android:textStyle="bold"
+                            tools:ignore="ButtonStyle,HardcodedText" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:layout_weight="0.82"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/discri"
+                            android:layout_width="140dp"
+                            android:layout_height="140dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/math"
+                            android:contentDescription=""
+                            android:padding="10dp"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/description"
+                            tools:ignore="ContentDescription,RtlHardcoded" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:orientation="horizontal"
+                        android:weightSum="1">
+
+                        <Button
+                            android:id="@+id/discription"
+                            android:layout_width="140dp"
+                            android:layout_height="25dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/math2"
+                            android:fontFamily="monospace"
+                            android:text="decouverte site"
+                            android:textStyle="bold"
+                            tools:ignore="ButtonStyle,HardcodedText,RtlHardcoded" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,49 @@
+{
+  "placement":
+  {
+    "0": {
+      "alpha":"A",
+      "reponse": "AÉROPORT ROISSY CHARLES DE GAULE"
+    },
+    "1": {
+      "alpha":"B",
+      "reponse": "MUSÉE ET L’AIR ET DE L’ESPACE"
+    },
+    "2": {
+      "alpha":"C",
+      "reponse": "STADE DE FRANCE"
+    },
+    "3": {
+      "alpha":"D",
+      "reponse": "BASILIQUE SAINT DENIS"
+    },
+    "4": {
+      "alpha":"E",
+      "reponse": "TOUR EIFFEL"
+    },
+    "5": {
+      "alpha":"F",
+      "reponse": "PARC DE SAINT CLOUD"
+    },
+    "6": {
+      "alpha":"G",
+      "reponse": "PAVILLON BALTARD"
+    },
+    "7": {
+      "alpha":"H",
+      "reponse": "CHÂTEAU DE VERSAILLES"
+    },
+    "8": {
+      "alpha":"I",
+      "reponse": "MUSÉE MAC VAL"
+    },
+    "9": {
+      "alpha":"J",
+      "reponse": "AÉROPORT D’ORLY"
+    },
+    "10": {
+      "alpha":"K",
+      "reponse": "PARC DE LA CHEVREUSE"
+    }
+  }
+}

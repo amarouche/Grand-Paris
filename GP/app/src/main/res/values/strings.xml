@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GP</string>
+    <string name="textview">TextView</string>
+    <string name="v_rifier">Vérifier</string>
+    <string name="maths">Maths</string>
+    <string name="situer">situer</string>
+    <string name="felicitations">Félicitations</string>
+    <string name="reussite">Vous avez réussi l\'exercice</string>
+    <string name="menu">Menu</string>
+    <string name="verifier">verifier</string>
+    <string name="erreur">Vous avez fait une erreur</string>
+    <string name="retour">Retour</string>
+    <string name="echec">Echec</string>
+</resources>

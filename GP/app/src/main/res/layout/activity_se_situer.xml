@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ouahab.gp.SeSituerActivity">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/paris">
+    <FrameLayout
+        android:id="@+id/header"
+        android:layout_width="wrap_content"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="58dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            tools:ignore="ContentDescription,RtlHardcoded"
+            android:contentDescription="" />
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="176dp"
+            android:layout_height="81dp"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:layout_marginTop="1dp"
+            app:srcCompat="@drawable/logo22"
+            tools:ignore="ContentDescription" />
+    </FrameLayout>
+
+        <ImageView
+            android:id="@+id/tt_carte"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:layout_below="@+id/header"
+            app:srcCompat="@drawable/all_map"
+            android:contentDescription=""
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tt_carte"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/phrase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Veuillez remplir le vide"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText" />
+
+            <LinearLayout
+                android:id="@+id/lay_color"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#EDF7F2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/quest"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/textview"
+                    android:textAlignment="center"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/reponse_situer"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:ems="10"
+                    android:inputType="textCapCharacters|textPersonName"
+                    android:textAlignment="center"
+                    android:textColor="@color/red"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/verifier"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/verif"
+                    android:text="@string/v_rifier"
+                    android:inputType="textCapCharacters"
+                    android:layout_marginBottom="5dp"
+                    tools:ignore="TextViewEdits"
+                    android:textAllCaps="true"/>
+
+                <TextView
+                    android:id="@+id/mauvaise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:visibility="invisible"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

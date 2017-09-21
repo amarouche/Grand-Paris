@@ -1,0 +1,52 @@
+#canvasMap{
+
+      position: absolute;
+        width : 1300px;
+        height : 1300px;
+		z-index: 50;
+}
+
+#container {
+    width: 1300px;
+    margin-top: 100px;
+    position: absolute;
+
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#question {
+    font-size: 75px;
+    text-align: center;
+	color: #5d32ea;
+}
+
+#buttonDiv {
+    margin-top: 100px;
+    margin-right: 50px;
+    width: 400px;
+    float: right;
+}
+
+#button {
+    font-size: 50px;
+    width: 400px;
+    height: 200px;
+    background-color: #4CAF50;
+    color: #FFFFFF;
+    border-radius: 35px;
+}
+
+#erreur {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 600px;
+    height: 200px
+    float: left;
+
+    font-size: 50px;
+    text-align: left;
+    color: #990000;
+    display: inline-block;
+    vertical-align: middle;
+}

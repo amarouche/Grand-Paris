@@ -1,0 +1,49 @@
+{
+  "situer":
+  {
+    "0": {
+      "question": "Je suis à l’ouest de la Tour Eiffel et au sud de Nanterre",
+      "reponse": "PARC DE SAINT CLOUD"
+    },
+    "1": {
+      "question": "Je suis à l’ouest de l’Aéroport d’Orly et au sud de Saint Aubin",
+      "reponse": "PARC DE LA CHEVREUSE"
+    },
+    "2": {
+      "question": "Je suis à l’est de la Basilique Saint Denis et à l’ouest d’Aubervilliers ",
+      "reponse": "STADE DE FRANCE"
+    },
+    "3": {
+      "question": "Je suis au nord est du Parc de Saint Cloud et à l’ouest d’Aubervilliers",
+      "reponse": "BASILIQUE SAINT DENIS"
+    },
+    "4": {
+      "question": "Je suis à l’ouest du Mac Val et à l’est de Satory ",
+      "reponse": "CHTEAU DE VERSAILLES"
+    },
+    "5": {
+      "question": "Je suis au nord est del a Tour Eiffel et au sud ouest de Gonesse",
+      "reponse": "MUSEE DE L'AIR ET DE L'ESPACE"
+    },
+    "6": {
+      "question": "Je suis au nord ouest du Musée de l’air et de l’espace et au sud est du Mesnil Amelot",
+      "reponse": "AEROPORT ROISSY CHARLES DE GAULE"
+    },
+    "7": {
+      "question": "Je suis au sud du Musée Mac Val et à l’ouest de Massy",
+      "reponse": "AEROPORT D’ORLY"
+    },
+    "8": {
+      "question": "Je suis située dans Parisdans la partie sud ouest de la ville ",
+      "reponse": "TOUR EIFFEL"
+    },
+    "9": {
+      "question": "Je suis au nord de L’aéroport d’Orly et à l’ouest des Ardoines",
+      "reponse": "MUSÉE MAC VAL"
+    },
+    "10": {
+      "question": "Je suis à l’est de la Tour Eiffel et au sud du Val de Fontenay",
+      "reponse": "PAVILLON BALTARD"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ouahab.gp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/your_own_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MathsActivity" />
+        <activity
+            android:name=".ExerciceMathsActivity"
+            android:windowSoftInputMode="adjustPan" />
+        <activity android:name=".RemplirActivity" />
+        <activity android:name=".MenuRemplirActivity" />
+        <activity android:name=".SeSituerActivity" />
+        <activity android:name=".PointsCardinauxActivity" />
+        <activity android:name=".MapGameActivity" />
+        <activity android:name=".DiscriptionActivity"/>
+        <activity android:name=".Exercices.exercice"/>
+        <activity android:name=".Exercices.exercice_normal"/>
+        <activity android:name=".Exercices.exercice_difficile"/>
+    </application>
+
+</manifest>
